@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="formulario" content="width=device=width">  
+        <title>Ejmplos de intup</title>
+    </head>
+    <body>
+        
+        <label for="nombre">Contraseña</label>
+        <input type="password" name="nombre" />
+        <hr/>
+        <strong>CHECK BOX</strong><br/>
+        <input type="checkbox" id="terminos" value="yes">
+        <label for="terminos">Acepto los términos y condiciones</label><br/>
+     
+        <input type="radio" id="manana" value="M" name="horario">
+        <label for="manana">Mañana</label>
+        <input type="radio" id="tarde" value="T" name="horario">
+        <label for="tarde">Tarde</label>
+        <br/>
+        <label for="ciudades">Cuidad</label>
+       <select name="ciudades">
+        <optgroup label="Latinoamerica">
+          <option value="caracas">Caracas</option>
+          <option value="bogota">Bogotá</option>
+        </optgroup><optgroup label="Europa">
+          <option value="madrid">Madrid</option>
+          <option value="londres">Londres</option>
+        </optgroup>
+     </select> <hr/>
+
+     <label for="tipo">Tipo</label><br>
+<select name="tipo" multiple="true">
+   <option value="musico">Músico</option>
+   <option value="pintor">Pintor</option>
+   <option value="actor">Actor</option>
+   <option value="escultor">Escultor</option>
+</select> <hr/>
+    </body>
+</html>
